@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define l 16
 
-void selection_sort(int nums[], int n);
+void selection_sort(int nums[], int n); // not necessary to declare this line 
 
 int main()
 {
