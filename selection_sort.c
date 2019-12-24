@@ -1,22 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define l 16
+#define l 10
 
-void selection_sort(int nums[], int n); // not necessary to declare this line 
+
 
 int main()
 {
-    int k;
-    int nums[l] = {3,54,22,65,1,43,564,21,576,124,52,4,512,7892,9782,965};
+    int k, nums[l];
+    enter_array(nums,l);
 
     selection_sort(nums,l);
-    for(k = 0; k < 16; k++)
+    for(k = 0; k < l; k++)
     {
         printf("%d ", nums[k]);
     }
     return 0;
 }
 
+void enter_array(int arr[],int n)
+{
+    int i;
+    printf("Enter elements of the array : ");
+    for(i = 0; i < n; i++)
+    {
+       scanf("%d", &arr[i]);
+    }
+}
 
 void selection_sort(int nums[],int size)
 {
