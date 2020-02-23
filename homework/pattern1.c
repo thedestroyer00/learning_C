@@ -1,6 +1,6 @@
 // To print the following pattern :
 /*
-		1
+	    1
 	   121
 	  12321
 	 1234321
