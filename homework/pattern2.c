@@ -1,6 +1,6 @@
 // To print the following pattern: 
 /*
-		*
+	    *
 	   * *
 	  * * *
 	 * * * *
