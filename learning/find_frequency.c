@@ -10,9 +10,9 @@ sample output: 0 2 1 0 1 1 1 1 0 0
 #include <stdlib.h>
 
 void update_list(int nums[],char letter){
-	int c = letter - '0';
+	unsigned c = letter - '0';
 		
-	if(c >= 0 && c <10)
+	if(c < 10)
 		++nums[c];	
    }
    
@@ -34,4 +34,5 @@ int main() {
 	
     return 0;
 }
+
 
